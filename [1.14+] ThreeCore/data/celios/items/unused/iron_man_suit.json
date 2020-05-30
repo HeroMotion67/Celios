@@ -1,0 +1,131 @@
+{
+  "type": "threecore:armor",
+
+  "properties": {
+    "group": "suits_and_armor"
+  },
+
+  "slot": "chest",
+
+  "armor_material": "diamond",
+
+  "layers": [
+    {
+      "type": "threecore:default",
+      "model": "celios:iron_man_suit",
+      "texture": {
+        "base": "celios:textures/models/armor/iron_man_suit.png",
+        "transformers": [
+          {
+            "type": "threecore:alpha_mask",
+            "mask": "celios:textures/models/alpha_masks/iron_man_suit/transformation_#TIMER.png"
+          }
+        ],
+        "variables": {
+          "TIMER": {
+            "type": "threecore:integer_nbt",
+            "nbt_tag": "Opening"
+          }
+        },
+        "output": "celios:textures/models/armor/iron_man_suit_#TIMER"
+      }
+    },
+
+    {
+      "type": "threecore:default",
+      "glow": true,
+      "model": "celios:iron_man_suit",
+      "texture": "celios:textures/models/armor/iron_man_suit_lights.png",
+      "predicates": [
+        {
+          "type": "threecore:integer_nbt",
+          "nbt_tag": "Opening",
+          "value": 16
+        }
+      ]
+    },
+
+    {
+      "type": "threecore:default",
+      "glow": true,
+      "model": "celios:iron_man_suit",
+      "texture": "celios:textures/models/armor/iron_man_suit_reactor_lights.png"
+    }
+  ],
+
+  "abilities": {
+    "opening": {
+      "ability": "threecore:opening_nbt_timer",
+      "max_timer": 16,
+      "icon": {
+        "type": "threecore:item",
+        "item": "celios:iron_man_suit"
+      },
+      "conditions": [
+        {
+          "type": "threecore:action",
+          "enabling": true
+        },
+        {
+          "type": "threecore:equipment_slot",
+          "slot": "chest"
+        }
+      ]
+    },
+
+    "flight": {
+      "ability": "threecore:accelerating_flight",
+      "conditions": [
+        {
+          "type": "threecore:toggle",
+          "enabling": true
+        },
+        {
+          "type": "threecore:item_integer_nbt",
+          "slot": "chest",
+          "nbt_tag": "Opening",
+          "min": 16,
+          "max": 16
+        },
+        {
+          "type": "threecore:equipment_slot",
+          "slot": "chest"
+        }
+      ]
+    },
+
+    "laser": {
+      "ability": "threecore:projectile",
+      "entity_type": "threecore:projectile",
+      "velocity": 3,
+      "entity_data": {
+        "GravityVelocity": 0,
+        "RenderInfo": {
+          "EnergyColor": [0, 0, 255]
+        }
+      },
+      "conditions": [
+        {
+          "type": "threecore:cooldown",
+          "cooldown": 60
+        },
+        {
+          "type": "threecore:action",
+          "enabling": true
+        },
+        {
+          "type": "threecore:equipment_slot",
+          "slot": "chest"
+        },
+        {
+          "type": "threecore:item_integer_nbt",
+          "slot": "chest",
+          "nbt_tag": "Opening",
+          "min": 16,
+          "max": 16
+        }
+      ]
+    }
+
+  }
+}
