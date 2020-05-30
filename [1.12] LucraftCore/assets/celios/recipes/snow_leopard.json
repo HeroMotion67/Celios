@@ -1,0 +1,30 @@
+{
+
+  "type": "lucraftcore:recolor",
+  
+  "group": "celios:snow_leopard",
+
+  "result": {
+    "item": "celios:snow_leopard_suit"
+  },
+
+  "original": "heroesexpansion:black_panther_suit",
+
+  "ingredients": [
+    {
+      "item": "craftfallessentials:craftfall_badge"
+    }
+  ],
+
+  "conditions": [
+    {
+      "item": "heroesexpansion:black_panther_suit",
+      "type": "minecraft:item_exists"
+    },
+    {
+      "item": "celios:snow_leopard_suit",
+      "type": "minecraft:item_exists"
+    }
+  ]
+
+}

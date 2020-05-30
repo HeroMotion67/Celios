@@ -1,0 +1,32 @@
+{
+	"forge_marker": 1,
+	"defaults": {
+		"model": "builtin/generated",
+		"textures": {
+			"layer0": "blocks/dirt"
+		},
+
+		"transform": "forge:default-item"
+	},
+
+	"variants": {
+		
+		"chest": [{
+			"textures": {
+				"layer0": "celios:items/solar/chestplate"
+			}
+		}],
+
+		"legs": [{
+			"textures": {
+				"layer0": "celios:items/solar/legs"
+			}
+		}],
+
+		"feet": [{
+			"textures": {
+				"layer0": "celios:items/solar/boots"
+			}
+		}]
+	}
+}

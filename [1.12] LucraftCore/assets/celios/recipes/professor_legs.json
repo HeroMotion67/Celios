@@ -1,0 +1,19 @@
+{
+  "result": {
+    "item": "celios:professor_legs"
+  },
+  "type": "forge:ore_shaped",
+  "pattern": [
+    "222",
+    "2 2",
+    "1 1"
+  ],
+  "key": {
+	"1": {
+      "item": "lucraftcore:tri_polymer_purple"
+    	},
+    "2": {
+      "item": "lucraftcore:tri_polymer_gray"
+    }
+  }
+}

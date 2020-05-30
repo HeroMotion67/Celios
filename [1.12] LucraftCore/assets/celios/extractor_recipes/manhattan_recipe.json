@@ -1,0 +1,25 @@
+{
+	"input": {
+		"item": "lucraftcore:infinity_generator"
+
+	},
+
+	"input_container": {
+		"item": "lucraftcore:injection"
+	},
+
+	"input_fluid": {
+		"fluid": "super_soldier_serum",
+		"amount": 5000
+	},
+
+	"energy": 100000,
+
+	"outputs": {
+		"primary": {
+			"item": "lucraftcore:injection",
+			"nbt": "{\"Injection\": \"celios:manhattan_power\"}",
+			"chance": 0.2
+		}
+	}
+}

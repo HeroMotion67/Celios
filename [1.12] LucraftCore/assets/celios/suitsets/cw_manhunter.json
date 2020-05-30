@@ -1,0 +1,65 @@
+{
+	"name": {
+		"translate": "celios.suitset.cw_manhunter"
+	},
+	
+	"description": {
+		"translate": "celios.suitset.cw_manhunter.desc"
+	},
+	
+	"creative_tab": "celios",
+	
+	"armor_material": {
+		"durability": 15,
+		"damage_reduction_amounts": [2, 5, 6, 2],
+		"enchantibility": 9,
+		"toughness": 0.0,
+		"sound": "item.armor.equip_chainmail"
+	},
+	
+	"armor_parts": {
+		
+		"chest": {
+			"openable": false,
+			"glow": false,
+			"name": {
+				"translate": "celios.suitset.cw_manhunter.chestplate"
+			},
+			"textures": {
+				"normal": "celios:textures/models/armor/cw_manhunter/chestplate.png",
+				"normal_smallarms": "celios:textures/models/armor/cw_manhunter/chestplate_smallarms.png"
+			},
+			"item_texture": {
+				"blockstate": "celios:cw_manhunter_suit"
+			}
+		},
+		
+		"legs": {
+			"openable": false,
+			"glow": false,
+			"name": {
+				"translate": "celios.suitset.cw_manhunter.legs"
+			},
+			"textures": {
+				"normal": "celios:textures/models/armor/cw_manhunter/legs.png"
+			},
+			"item_texture": {
+				"blockstate": "celios:cw_manhunter_suit"
+			}
+		},
+		
+		"feet": {
+			"openable": false,
+			"glow": false,
+			"name": {
+				"translate": "celios.suitset.cw_manhunter.boots"
+			},
+			"textures": {
+				"normal": "celios:textures/models/armor/cw_manhunter/boots.png"
+			},
+			"item_texture": {
+				"blockstate": "celios:cw_manhunter_suit"
+			}
+		}
+	}
+}

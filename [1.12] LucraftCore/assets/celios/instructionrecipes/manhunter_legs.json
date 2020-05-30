@@ -1,0 +1,17 @@
+{
+	"output": {
+		"item": "celios:manhunter_legs"
+	},
+
+	"requirements": [
+		{
+			"item": "lucraftcore:tri_polymer_red",
+			"amount": 6
+		},
+		{
+			"item": "lucraftcore:tri_polymer_black",
+			"amount": 2
+		}
+	]
+
+}

@@ -1,0 +1,80 @@
+{
+	"name": {
+		"translate": "celios.suitset.clear"
+	},
+	
+	"description": {
+		"translate": "celios.suitset.clear.desc"
+	},
+	
+	"creative_tab": "celios",
+	
+	"armor_material": {
+		"durability": 33,
+		"damage_reduction_amounts": [4, 5, 8, 4],
+		"enchantibility": 8,
+		"toughness": 2.0,
+		"sound": "item.armor.equip_leather"
+	},
+	
+	
+	"armor_parts": {
+	
+		"head": {
+			"openable": false,
+			"glow": false,
+			"name": {
+				"translate": "celios.suitset.clear.head"
+			},
+			"textures": {
+				"normal": "celios:textures/models/armor/clear/clear.png"
+			},
+			"item_texture": {
+				"blockstate": "celios:clear_suit"
+			}
+		},
+		
+		"chest": {
+			"openable": false,
+			"glow": false,
+			"name": {
+				"translate": "celios.suitset.clear.chestplate"
+			},
+			"textures": {
+				"normal": "celios:textures/models/armor/clear/clear.png",
+				"normal_smallarms": "celios:textures/models/armor/clear/clear.png"
+			},
+			"item_texture": {
+				"blockstate": "celios:clear_suit"
+			}
+		},
+		
+		"legs": {
+			"openable": false,
+			"glow": false,
+			"name": {
+				"translate": "celios.suitset.clear.legs"
+			},
+			"textures": {
+				"normal": "celios:textures/models/armor/clear/clear.png"
+			},
+			"item_texture": {
+				"blockstate": "celios:clear_suit"
+			}
+		},
+		
+		"feet": {
+			"openable": false,
+			"glow": false,
+			"name": {
+				"translate": "celios.suitset.clear.boots"
+			},
+			"textures": {
+				"normal": "celios:textures/models/armor/clear/clear.png"
+			},
+			"item_texture": {
+				"blockstate": "celios:clear_suit"
+			}
+		}
+	}
+}

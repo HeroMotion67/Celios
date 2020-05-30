@@ -1,0 +1,33 @@
+{
+
+  "type": "lucraftcore:recolor",
+  
+  "group": "celios:solar_back",
+
+  "result": {
+    "item": "heroesexpansion:superman_boots"
+  },
+
+  "original": "celios:solar_boots",
+
+  "ingredients": [
+    {
+      "item": "#DYERED"
+    },
+    {
+      "item": "#DYEBLUE"
+    }
+  ],
+
+  "conditions": [
+    {
+      "item": "celios:solar_boots",
+      "type": "minecraft:item_exists"
+    },
+    {
+      "item": "heroesexpansion:superman_boots",
+      "type": "minecraft:item_exists"
+    }
+  ]
+
+}

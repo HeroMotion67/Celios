@@ -1,0 +1,24 @@
+{
+    "input": {
+        "item": "lucraftcore:infinity_gauntlet"
+    },
+
+    "input_container": {
+        "item": "lucraftcore:injection"
+    },
+    
+    "input_fluid": {
+        "fluid": "lava",
+        "amount": 3000
+    },
+    
+    "energy": 10000,
+    
+    "outputs": {
+        "primary": {
+            "item": "lucraftcore:injection",
+            "nbt": "{\"Injection\": \"celios:hellboy_power\"}",
+            "chance": 0.4
+        }
+    }
+}

@@ -1,0 +1,33 @@
+{
+
+  "type": "lucraftcore:recolor",
+  
+  "group": "celios:bullseye_back",
+
+  "result": {
+    "item": "heroesexpansion:daredevil_helmet"
+  },
+
+  "original": "celios:bullseye_helmet",
+
+  "ingredients": [
+    {
+      "item": "#DYEBLACK"
+    },
+    {
+      "item": "#DYERED"
+    }
+  ],
+
+  "conditions": [
+    {
+      "item": "celios:bullseye_helmet",
+      "type": "minecraft:item_exists"
+    },
+    {
+      "item": "heroesexpansion:daredevil_helmet",
+      "type": "minecraft:item_exists"
+    }
+  ]
+
+}

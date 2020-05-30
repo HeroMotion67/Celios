@@ -1,0 +1,16 @@
+{
+  "result": {
+    "item": "celios:purple_shorts_chest"
+  },
+  "type": "forge:ore_shaped",
+  "pattern": [
+    "222",
+    "2 2",
+    "   "
+  ],
+  "key": {
+    "2": {
+      "item": "lucraftcore:tri_polymer_purple"
+    }
+  }
+}

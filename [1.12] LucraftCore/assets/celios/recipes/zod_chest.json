@@ -1,0 +1,33 @@
+{
+
+  "type": "lucraftcore:recolor",
+  
+  "group": "celios:zod",
+
+  "result": {
+    "item": "celios:zod_chest"
+  },
+
+  "original": "heroesexpansion:superman_chest",
+
+  "ingredients": [
+    {
+      "item": "#DYEGRAY"
+    },
+    {
+      "item": "#DYELIGHTGRAY"
+    }
+  ],
+
+  "conditions": [
+    {
+      "item": "celios:zod_chest",
+      "type": "minecraft:item_exists"
+    },
+    {
+      "item": "heroesexpansion:superman_chest",
+      "type": "minecraft:item_exists"
+    }
+  ]
+
+}

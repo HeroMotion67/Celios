@@ -1,0 +1,112 @@
+{
+	"name": {
+		"translate": "celios.superpower.martian"
+	},
+
+	"icon": {
+		"type": "texture",
+		"texture": "celios:textures/gui/manhunter_icon.png"
+	},
+
+	"max_level": 1,
+
+	"capsule_color": 65280,
+
+	"abilities": {
+
+		"true_form": {
+			"ability": "lucraftcore:size_change",
+			"size": 1.2,
+			"size_changer": "lucraftcore:default",
+			"title": {"text": "Change Form"},
+			"icon": {"type": "texture",
+				"texture": "celios:textures/gui/martian_icon.png"}
+		},
+		"sprint": {
+			"ability": "lucraftcore:sprint",
+			"amount": 1
+		},
+		"tough_lungs": {
+			"ability": "lucraftcore:tough_lungs"
+		},
+		"water_breathing": {
+			"ability": "lucraftcore:water_breathing"
+		},
+		"martian_vision": {
+			"ability": "heroesexpansion:heat_vision",
+			"color": [255, 0, 0],
+			"cooldown": 100,
+			"damage": 4.0
+		},
+		"flight": {
+			"ability": "lucraftcore:flight",
+			"speed": 1,
+			"sprint_speed": 4,
+			"rotate_arms": true
+		},
+		"health_boost": {
+			"ability": "lucraftcore:health",
+			"amount": 15
+		},
+		"jump_boost": {
+			"ability": "lucraftcore:jump_boost",
+			"amount": 3
+		},
+		"strength": {
+			"ability": "lucraftcore:strength",
+			"amount": 15
+		},
+		"resistance": {
+			"ability": "lucraftcore:resistance",
+			"amount": 15
+		},
+		"fall_resistance": {
+			"ability": "lucraftcore:fall_resistance",
+			"amount": 5
+		},
+		"phasing": {
+			"ability": "speedsterheroes:phasing",
+			"cooldown": 100,
+			"conditions": [{
+				"type": "ability_enabled",
+				"ability": "lucraftcore:size_change"
+			}]
+
+		},
+		"invisibility": {
+			"ability": "lucraftcore:invisibility",
+			"cooldown": 200
+		},
+		"punch": {
+			"ability": "lucraftcore:punch",
+			"show_in_bar": false,
+			"amount": 3.0,
+			"conditions": [{
+				"type": "ability_enabled",
+				"ability": "lucraftcore:size_change"
+			}]
+
+		}
+	},
+
+	"effects": [{
+			"type": "skin_change",
+			"texture": "celios:textures/skins/martian_skin.png",
+			"conditions": [{
+				"type": "ability_enabled",
+				"ability": "lucraftcore:size_change"
+			}]
+		},
+		{
+			"type": "skin_change",
+			"texture": "celios:textures/skins/steve_skin.png",
+			"glow": false,
+			"size": 0,
+			"conditions": [{
+				"type": "ability_enabled",
+				"ability": "heroesexpansion:toggle_power"
+			}]
+		}
+
+	]
+}

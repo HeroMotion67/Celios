@@ -1,0 +1,150 @@
+{
+	"name": {
+		"translate": "celios.superpower.shazam"
+	},
+
+	"icon": {
+		"type": "texture",
+		"texture": "celios:textures/gui/shazam_icon.png"
+	},
+
+	"max_level": 1,
+
+	"capsule_color": 16184152,
+
+	"abilities": {
+		"shazam": {
+			"ability": "lucraftcore:command",
+			"title": {"text": "Shazam!"},
+			"bar_color": "yellow",
+			"uuid": "a0e1ffec-9c53-11ea-8d94-53b9f95fdef2",
+			"icon": {"type": "texture",
+				"texture": "celios:textures/gui/shazam_power.png"},
+			"commands": ["say ", "summon minecraft:lightning_bolt", "effect @p minecraft:resistance 2 255", "effect @p minecraft:fire_resistance 5 255", "sizechange @p 1", "superpower @p celios:batson_power"]
+		},
+		"hood": {
+			"ability": "lucraftcore:toggle_power",
+			"title": {
+				"text": "Open Hood"
+			},
+			"icon": {
+				"type": "texture",
+				"texture": "celios:textures/gui/hood_icon.png"
+			}
+		},
+		"flight": {
+			"ability": "lucraftcore:flight",
+			"speed": 0.5,
+			"sprint_speed": 2,
+			"rotate_arms": true
+		},
+		"strike": {
+			"ability": "heroesexpansion:lightning_strike",
+			"cooldown": 100
+		},
+		"attack": {
+			"ability": "heroesexpansion:lightning_attack",
+			"cooldown": 100,
+			"damage": 15.0
+		},
+		"lightning_storm": {
+			"ability": "lucraftcore:command",
+			"title": {
+				"text": "Lightning Storm"
+			},
+			"icon": {
+				"type": "texture",
+				"texture": "celios:textures/gui/thunder_icon.png"
+			},
+			"commands": ["execute @e[rm=2,r=35,name=!player] ~ ~ ~ /summon Lightning_bolt"],
+			"cooldown": 250,
+			"uuid": "ad560a2a-9c53-11ea-a3ca-6fcfdada3aaf"
+		},
+		"fire_resistance": {
+			"ability": "lucraftcore:fire_resistance"
+		},
+		"health": {
+			"ability": "lucraftcore:health",
+			"amount": 16
+		},
+		"jump_boost": {
+			"ability": "lucraftcore:jump_boost",
+			"amount": 2
+		},
+		"strength": {
+			"ability": "lucraftcore:strength",
+			"amount": 16.5
+		},
+		"sprint": {
+			"ability": "lucraftcore:sprint",
+			"amount": 1
+		},
+		"resistance": {
+			"ability": "lucraftcore:resistance",
+			"amount": 16
+		},
+		"fall_resistance": {
+			"ability": "lucraftcore:fall_resistance",
+			"amount": 60
+		},
+		"precision": {
+			"ability": "heroesexpansion:precision"
+		}
+	},
+
+
+
+	"effects": [{
+			"type": "skin_overlay",
+			"texture": "celios:textures/skins/shazam_skin.png",
+			"glow": false,
+			"size": 0.4
+		},
+		{
+			"type": "skin_overlay",
+			"texture": "celios:textures/skins/shazam_glow.png",
+			"glow": true,
+			"size": 0.6
+
+		},
+		{
+			"type": "flickering",
+			"color": [0, 1, 1],
+			"use_suit_flicker": false
+		},
+		{
+			"type": "skin_overlay",
+			"texture": "celios:textures/skins/hood.png",
+			"glow": false,
+			"size": 0.2,
+			"conditions": [{
+				"type": "ability_enabled",
+				"ability": "lucraftcore:toggle_power"
+			}]
+		},
+		{
+			"type": "skin_overlay",
+			"texture": "celios:textures/skins/hood_glow.png",
+			"glow": true,
+			"size": 0.2,
+			"conditions": [{
+				"type": "ability_enabled",
+				"ability": "lucraftcore:toggle_power"
+			}]
+		},
+		{
+			"type": "name_change",
+			"name": {
+				"text": "???"
+			},
+			"conditions": [{
+				"type": "ability_enabled",
+				"ability": "lucraftcore:toggle_power"
+			}]
+		}
+
+
+
+
+	]
+}

@@ -1,0 +1,17 @@
+{
+	"output": {
+		"item": "celios:manhunter_boots"
+	},
+
+	"requirements": [
+		{
+			"item": "lucraftcore:tri_polymer_red",
+			"amount": 2
+		},
+		{
+			"item": "lucraftcore:tri_polymer_blue",
+			"amount": 4
+		}
+	]
+
+}

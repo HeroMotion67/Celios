@@ -1,0 +1,33 @@
+{
+
+  "type": "lucraftcore:recolor",
+  
+  "group": "celios:bullseye",
+
+  "result": {
+    "item": "celios:bullseye_legs"
+  },
+
+  "original": "heroesexpansion:daredevil_legs",
+
+  "ingredients": [
+   {
+      "item": "#DYEBLACK"
+    },
+    {
+      "item": "#DYEWHITE"
+    }
+  ],
+
+  "conditions": [
+    {
+      "item": "celios:bullseye_legs",
+      "type": "minecraft:item_exists"
+    },
+    {
+      "item": "heroesexpansion:daredevil_legs",
+      "type": "minecraft:item_exists"
+    }
+  ]
+
+}

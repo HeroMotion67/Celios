@@ -1,0 +1,207 @@
+{
+	"parent": "heroesexpansion:black_panther",
+
+	"name": {
+		"translate": "celios.suitset.lex"
+	},
+
+	"effects": [{
+			"type": "skin_overlay",
+			"texture": "celios:textures/models/armor/lex/suit_glow.png",
+			"glow": true,
+			"size": 0.2,
+			"conditions": [{
+				"type": "open_armor",
+				"slot": "chest"
+			}]
+		},
+		{
+			"type": "skin_overlay",
+			"texture": "celios:textures/models/armor/lex/suit_overlay.png",
+			"glow": false,
+			"size": 0.5,
+			"conditions": [{
+				"type": "open_armor",
+				"slot": "chest"
+			}]
+		},
+		{
+			"type": "skin_overlay",
+			"texture": "celios:textures/models/armor/lex/suit_overlay.png",
+			"glow": false,
+			"size": 0,
+			"conditions": [{
+				"type": "open_armor",
+				"slot": "chest"
+			}]
+		},
+
+		{
+			"type": "skin_overlay",
+			"texture": "celios:textures/models/armor/lex/shield.png",
+			"glow": true,
+			"size": 2,
+			"conditions": [{
+				"type": "ability_enabled",
+				"ability": "heroesexpansion:god_mode"
+			}]
+		},
+		{
+			"type": "skin_overlay",
+			"texture": "celios:textures/models/armor/lex/blade.png",
+			"glow": true,
+			"size": 0.7,
+			"conditions": [{
+				"type": "ability_enabled",
+				"ability": "lucraftcore:potion_punch"
+			}]
+		}
+	],
+
+	"creative_tab": "tech",
+
+	"armor_material": {
+		"durability": 45,
+		"damage_reduction_amounts": [3, 4, 5, 3],
+		"enchantibility": 0,
+		"toughness": 1,
+		"sound": "item.armor.equip_chain"
+	},
+
+	"data": {
+		"transition_color_1": {
+			"red": 0,
+			"green": 255,
+			"blue": 0
+		},
+
+		"transition_color_2": {
+			"red": 255,
+			"green": 0,
+			"blue": 255
+		},
+		"use_energy": true,
+		"use_durability": false,
+		"necklace_texture": "celios:textures/models/armor/lex/suit_open.png"
+	},
+
+	"abilities": {
+		"strength": {
+			"ability": "lucraftcore:strength",
+			"uuid": "167ca886-53ed-43f9-ba6c-02a1a7d492e6",
+			"amount": 7,
+			"operation": 0,
+			"conditions": [{
+				"type": "lucraftcore:open_armor",
+				"slot": "chest"
+			}]
+		},
+		"fire_resistance": {
+			"ability": "lucraftcore:fire_resistance",
+			"conditions": [{
+				"type": "lucraftcore:open_armor",
+				"slot": "chest"
+			}]
+		},
+		"jump_boost": {
+			"ability": "lucraftcore:jump_boost",
+			"amount": 2,
+			"operation": 0,
+			"conditions": [{
+				"type": "lucraftcore:open_armor",
+				"slot": "chest"
+			}]
+		},
+
+		"fall_resistance": {
+			"ability": "lucraftcore:fall_resistance",
+			"amount": 60,
+			"operation": 0,
+			"conditions": [{
+				"type": "lucraftcore:open_armor",
+				"slot": "chest"
+			}]
+		},
+		"resistance": {
+			"ability": "lucraftcore:resistance",
+			"amount": 20,
+			"operation": 0,
+			"conditions": [{"type": "ability_enabled",
+			"ability": "shield"}]
+		},
+		"knockback_reistance": {
+			"ability": "lucraftcore:knockback_resistance",
+			"amount": 6,
+			"operation": 0,
+			"conditions": [{
+				"type": "lucraftcore:open_armor",
+				"slot": "chest"
+			}]
+		},
+		"blade_damage": {
+			"ability": "lucraftcore:punch",
+			"amount": 3.0,
+			"conditions": [{
+				"type": "ability_enabled",
+				"ability": "lucraftcore:potion_punch"
+			}]
+		},
+		"blade": {
+			"ability": "lucraftcore:potion_punch",
+			"cooldown": 250,
+			"show_in_bar": true,
+			"title": {
+				"text": "Kryptonite Blade"
+			},
+			"icon": {
+				"type": "texture",
+				"texture": "celios:textures/gui/blade.png"
+			},
+			"potion": "heroesexpansion:kryptonite_poison",
+			"amplifier": 255,
+			"duration": 20,
+			"conditions": [{
+				"type": "open_armor",
+				"slot": "chest"
+			}]
+		},
+		"shield": {
+			"ability": "heroesexpansion:god_mode",
+			"title": {"text": "Shield"},
+			"cooldown": 100,
+			"damage": 0,
+			"icon": {"type": "texture",
+				"texture": "celios:textures/gui/shield_icon.png"},
+			"conditions": [{
+				"type": "lucraftcore:open_armor",
+				"slot": "chest"
+			}]
+		},
+		"blast": {
+			"ability": "lucraftcore:energy_blast",
+			"cooldown": 40,
+			"damage": 7,
+			"color": [0, 255, 0],
+			"conditions": [{
+				"type": "lucraftcore:open_armor",
+				"slot": "chest"
+			}]
+		}
+
+	},
+
+	"armor_parts": {
+
+		"chest": {
+			"openable": true,
+			"glow": false,
+			"name": {
+				"text": "War Suit"
+			},
+			"textures": {"normal": "celios:textures/models/armor/lex/suit_open.png"},
+			"item_texture": {"blockstate": "celios:lex_suit"}
+		}
+	}
+
+
+}

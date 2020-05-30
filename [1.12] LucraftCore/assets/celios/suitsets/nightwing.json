@@ -1,0 +1,117 @@
+{
+	"name": {
+		"translate": "celios.suitset.nightwing"
+	},
+	
+	"description": {
+		"translate": "celios.suitset.nightwing.desc"
+	},
+	
+	"creative_tab": "celios",
+	
+	"armor_material": {
+		"durability": 33,
+		"damage_reduction_amounts": [4, 5, 8, 4],
+		"enchantibility": 8,
+		"toughness": 3.0,
+		"sound": "item.armor.equip_leather"
+	},
+	
+	"effects": [
+		{
+			"type": "name_change",
+			"name": {
+				"text": "???"
+			}
+		}
+	],
+
+	"abilities": [
+		{
+			"ability": "lucraftcore:jump_boost",
+			"amount": 1,
+			"operation": 0
+		},
+		{
+			"ability": "lucraftcore:strength",
+			"amount": 4,
+			"operation": 0
+		},
+		{
+			"ability": "lucraftcore:resistance",
+			"amount": 5,
+			"operation": 0
+		},
+		{
+			"ability": "lucraftcore:fall_resistance",
+			"amount": 5,
+			"operation": 0
+		},
+		{
+		"ability": "heroesexpansion:precision"
+		}
+
+		
+	],
+
+	
+	"armor_parts": {
+	
+		"head": {
+			"openable": false,
+			"glow": false,
+			"name": {
+				"translate": "celios.suitset.nightwing.head"
+			},
+			"textures": {
+				"normal": "celios:textures/models/armor/nightwing/helmet.png"
+			},
+			"item_texture": {
+				"blockstate": "celios:nightwing_suit"
+			}
+		},
+		
+		"chest": {
+			"openable": false,
+			"glow": false,
+			"name": {
+				"translate": "celios.suitset.nightwing.chestplate"
+			},
+			"textures": {
+				"normal": "celios:textures/models/armor/nightwing/chestplate.png",
+				"normal_smallarms": "celios:textures/models/armor/nightwing/chestplate_smallarms.png"
+			},
+			"item_texture": {
+				"blockstate": "celios:nightwing_suit"
+			}
+		},
+		
+		"legs": {
+			"openable": false,
+			"glow": false,
+			"name": {
+				"translate": "celios.suitset.nightwing.legs"
+			},
+			"textures": {
+				"normal": "celios:textures/models/armor/nightwing/legs.png"
+			},
+			"item_texture": {
+				"blockstate": "celios:nightwing_suit"
+			}
+		},
+		
+		"feet": {
+			"openable": false,
+			"glow": false,
+			"name": {
+				"translate": "celios.suitset.nightwing.boots"
+			},
+			"textures": {
+				"normal": "celios:textures/models/armor/nightwing/boots.png"
+			},
+			"item_texture": {
+				"blockstate": "celios:nightwing_suit"
+			}
+		}
+	}
+}

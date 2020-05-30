@@ -1,0 +1,33 @@
+{
+
+  "type": "lucraftcore:recolor",
+  
+  "group": "celios:zod",
+
+  "result": {
+    "item": "celios:zod_boots"
+  },
+
+  "original": "heroesexpansion:superman_boots",
+
+  "ingredients": [
+    {
+      "item": "#DYEGRAY"
+    },
+    {
+      "item": "#DYELIGHTGRAY"
+    }
+  ],
+
+  "conditions": [
+    {
+      "item": "celios:zod_boots",
+      "type": "minecraft:item_exists"
+    },
+    {
+      "item": "heroesexpansion:superman_boots",
+      "type": "minecraft:item_exists"
+    }
+  ]
+
+}

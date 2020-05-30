@@ -1,0 +1,33 @@
+{
+
+  "type": "lucraftcore:recolor",
+  
+  "group": "celios:bullseye",
+
+  "result": {
+    "item": "celios:bullseye_chest"
+  },
+
+  "original": "heroesexpansion:daredevil_chest",
+
+  "ingredients": [
+    {
+      "item": "#DYEBLACK"
+    },
+    {
+      "item": "#DYEWHITE"
+    }
+  ],
+
+  "conditions": [
+    {
+      "item": "celios:bullseye_chest",
+      "type": "minecraft:item_exists"
+    },
+    {
+      "item": "heroesexpansion:daredevil_chest",
+      "type": "minecraft:item_exists"
+    }
+  ]
+
+}

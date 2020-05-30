@@ -1,0 +1,17 @@
+{
+	"output": {
+		"item": "celios:manhunter_chest"
+	},
+
+	"requirements": [
+		{
+			"item": "lucraftcore:tri_polymer_blue",
+			"amount": 7
+		},
+		{
+			"item": "lucraftcore:tri_polymer_red",
+			"amount": 3
+		}
+	]
+
+}

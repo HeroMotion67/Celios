@@ -1,0 +1,26 @@
+{
+  "result": {
+    "item": "celios:lex_suit"
+  },
+  "type": "forge:ore_shaped",
+  "pattern": [
+    "222",
+    "313",
+    "242"
+  ],
+  "key": {
+    	"1": {
+      "item": "heroesexpansion:kryptonite_block"
+    },
+    	"3": {
+      "item": "lucraftcore:advanced_circuit"
+    },
+	"2": {
+      "item": "lucraftcore:plate_steel"
+    },
+    	"4": {
+      "item": "lucraftcore:hv_capacitor"
+    }
+	
+  }
+}

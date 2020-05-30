@@ -1,0 +1,33 @@
+{
+
+  "type": "lucraftcore:recolor",
+  
+  "group": "celios:cw_manhunter",
+
+  "result": {
+    "item": "cw_manhunter_chest"
+  },
+
+  "original": "celios:manhunter_chest",
+
+  "ingredients": [
+    {
+      "item": "#DYEBLACK"
+    },
+    {
+      "item": "#DYERED"
+    }
+  ],
+
+  "conditions": [
+    {
+      "item": "celios:manhunter_chest",
+      "type": "minecraft:item_exists"
+    },
+    {
+      "item": "celios:cw_manhunter_chest",
+      "type": "minecraft:item_exists"
+    }
+  ]
+
+}

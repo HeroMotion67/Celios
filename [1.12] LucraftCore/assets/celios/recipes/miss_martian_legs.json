@@ -1,0 +1,33 @@
+{
+
+  "type": "lucraftcore:recolor",
+  
+  "group": "celios:miss_martian",
+
+  "result": {
+    "item": "miss_martian_legs"
+  },
+
+  "original": "celios:manhunter_legs",
+
+  "ingredients": [
+    {
+      "item": "#DYECYAN"
+    },
+    {
+      "item": "#DYERED"
+    }
+  ],
+
+  "conditions": [
+    {
+      "item": "celios:manhunter_legs",
+      "type": "minecraft:item_exists"
+    },
+    {
+      "item": "celios:miss_martian_legs",
+      "type": "minecraft:item_exists"
+    }
+  ]
+
+}

@@ -1,0 +1,161 @@
+#Creative Tab
+itemGroup.celios=Celios
+itemGroup.tech=Technology
+itemGroup.magic=Magic
+
+
+
+#SuitSets
+
+celios.suitset.manhunter=Martian Manhunter's Suit
+celios.suitset.manhunter.desc=J'onn J'onzz
+celios.suitset.manhunter.chestplate=Martian Manhunter's Chestpiece
+celios.suitset.manhunter.legs=Martian Manhunter's Legs
+celios.suitset.manhunter.boots=Martian Manhunter's Boots
+
+
+celios.suitset.cw_manhunter=Martian Manhunter's Suit
+celios.suitset.cw_manhunter.desc=CW
+celios.suitset.cw_manhunter.chestplate=Martian Manhunter's Chestpiece
+celios.suitset.cw_manhunter.legs=Martian Manhunter's Legs
+celios.suitset.cw_manhunter.boots=Martian Manhunter's Boots
+
+
+
+celios.suitset.miss_martian=Miss Martian's Suit
+celios.suitset.miss_martian.desc=M'gann M'orzz
+celios.suitset.miss_martian.head=Miss Martian's Hair
+celios.suitset.miss_martian.chestplate=Miss Martian's Chestpiece
+celios.suitset.miss_martian.legs=Miss Martian's Legs
+celios.suitset.miss_martian.boots=Miss Martian's Boots
+
+
+
+celios.suitset.osterman=Doctor Manhattan's Suit
+celios.suitset.osterman.desc=Interview
+celios.suitset.osterman.chestplate=Doctor Manhattan's Blazer
+celios.suitset.osterman.legs=Doctor Manhattan's Pants
+celios.suitset.osterman.boots=Doctor Manhattan's Shoes
+
+
+
+celios.suitset.abar=Doctor Manhattan's Outfit
+celios.suitset.abar.desc=Cal Abar
+celios.suitset.abar.chestplate=Doctor Manhattan's Shirt
+celios.suitset.abar.legs=Doctor Manhattan's Pants
+celios.suitset.abar.boots=Doctor Manhattan's Shoes
+
+
+
+celios.suitset.underwear=Doctor Manhattan's Suit
+celios.suitset.underwear.desc=Vietnam War (Place in chest slot)
+celios.suitset.underwear.chestplate=Doctor Manhattans's Underwear
+
+
+
+celios.suitset.torn_shorts=Hulk's Pants
+celios.suitset.torn_shorts.desc=Avengers (Place in chest slot)
+celios.suitset.torn_shorts.chestplate=Hulk's Shorts
+
+
+
+celios.suitset.professor=Professor Hulk's Suit
+celios.suitset.professor.desc=Endgame
+celios.suitset.professor.chestplate=Professor Hulk's Chestpiece
+celios.suitset.professor.legs=Professor Hulk's Legs
+celios.suitset.professor.boots=Professor Hulk's Boots
+
+
+
+celios.suitset.purple_shorts=Hulk's Pants
+celios.suitset.purple_shorts.desc=Classic (Place in chest slot)
+celios.suitset.purple_shorts.chestplate=Hulk's Shorts
+
+
+
+celios.sutset.snow_leopard=Snow Leopard
+celios.suitset.snow_leopard.chestplate=Snow Leopard's Suit
+celios.suitset.snow_leopard.desc=From the players for the players
+
+
+
+celios.suitset.nightwing=Nightwing
+celios.suitset.nightwing.desc=Dick Grayson
+celios.suitset.nightwing.head=Nightwing's Mask
+celios.suitset.nightwing.chestplate=Nightwing's Chestpiece
+celios.suitset.nightwing.legs=Nightwing's Pants
+celios.suitset.nightwing.boots=Nightwing's Boots
+
+
+
+celios.suitset.zod=General Zod 
+celios.suitset.zod.desc=Dru-Zod
+celios.suitset.zod.chestplate=General Zod's Chestpiece
+celios.suitset.zod.legs=General Zod's Pants
+celios.suitset.zod.boots=General Zod's Boots
+
+
+
+celios.suitset.solar=Superman
+celios.suitset.solar.desc=Solar Suit
+celios.suitset.solar.chestplate=Superman's Chestpiece
+celios.suitset.solar.legs=Superman's Pants
+celios.suitset.solar.boots=Superman's Boots
+
+
+
+celios.suitset.bullseye=Bullseye
+celios.suitset.bullseye.desc=Poindexter
+celios.suitset.bullseye.helmet=Bullseye's Mask
+celios.suitset.bullseye.chestplate=Bullseye's Chestpiece
+celios.suitset.bullseye.legs=Bullseye's Pants
+celios.suitset.bullseye.boots=Bullseye's Boots
+
+
+
+celios.suitset.clear=Transparent
+celios.suitset.clear.desc=Clearly the smart choice
+celios.suitset.clear.head=Mask
+celios.suitset.clear.chestplate=Chestpiece
+celios.suitset.clear.legs=Pants
+celios.suitset.clear.boots=Boots
+
+
+
+celios.suitset.hellboy=Hellboy
+celios.suitset.hellboy.desc=And upon his brow is set a crown of flames
+celios.suitset.hellboy.chestplate=Hellboy's Trenchcoat
+celios.suitset.hellboy.legs=Hellboy's Belt
+
+	
+
+celios.suitset.martian_skull=Martian Skull
+celios.suitset.martian_skull.desc=Red Sands
+celios.suitset.martian_skull.head=Martian Skull
+celios.suitset.martian_skull.chestplate=Literally a dump item
+
+
+celios.suitset.iron_man=Iron Man
+celios.suitset.iron_man=Bleeding Edge
+
+celios.suitset.lex=Lex Luthor
+celios.suitset.lex=Krypton's Remnants
+	
+celios.suitset.fate=Doctor Fate
+celios.suitset.fate.desc=Spirit of Nabu
+
+
+
+#Superpowers
+
+celios.superpower.celios=Celios
+celios.superpower.martian=Martian
+celios.superpower.manhattan=Intrinsic Field
+celios.superpower.hulk=Gamma Radiation
+celios.superpower.sans=Sans
+celios.superpower.hellboy=Anung Un Rama
+celios.superpower.super=Weapon Plus Program
+celios.superpower.shazam=Power of Shazam!
+celios.superpower.adam=True Power of Shazam!
+celios.superpower.flight=Flight
+celios.superpower.screech=Sonic Scream

@@ -1,0 +1,24 @@
+{
+    "input": {
+        "item": "lucraftcore:block_uranium"
+    },
+
+    "input_container": {
+        "item": "lucraftcore:injection"
+    },
+    
+    "input_fluid": {
+        "fluid": "radioactive_acid",
+        "amount": 1000
+    },
+    
+    "energy": 10000,
+    
+    "outputs": {
+        "primary": {
+            "item": "lucraftcore:injection",
+            "nbt": "{\"Injection\": \"celios:hulk_power\"}",
+            "chance": 0.35
+        }
+    }
+}

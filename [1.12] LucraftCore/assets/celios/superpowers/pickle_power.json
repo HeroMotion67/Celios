@@ -1,0 +1,79 @@
+{
+	"name": {
+		"translate": "celios.superpower.pickle"
+	},
+
+	"icon": {
+		"type": "texture",
+		"texture": "celios:textures/gui/pickle_icon.png"
+	},
+
+	"max_level": 1,
+
+	"capsule_color": 4568074,
+
+	"abilities": [{
+			"ability": "lucraftcore:size_change",
+			"size": 0.3,
+			"size_changer": "lucraftcore:default",
+			"title": {"text": "Hey Alex"},
+			"icon": {"type": "texture",
+				"texture": "celios:textures/gui/pickle_icon.png"}
+		},
+		
+		{
+			"ability": "lucraftcore:water_breathing"
+		},
+		{
+			"ability": "lucraftcore:fire_resistance"
+		},
+		{
+			"ability": "lucraftcore:health",
+			"amount": 10
+		},
+		{
+			"ability": "lucraftcore:jump_boost",
+			"amount": 2
+		},
+		{
+			"ability": "lucraftcore:strength",
+			"amount": 6
+		},
+		{
+			"ability": "lucraftcore:resistance",
+			"amount": 10
+		},
+		{
+			"ability": "lucraftcore:fall_resistance",
+			"amount": 5
+		},
+		{
+			"ability": "heroesexpansion:precision"
+		},
+		{
+			"ability": "lucraftcore:sprint",
+			"amount": 2,
+			"required_ability": "size_change"
+		},
+		{
+			"ability": "lucraftcore:command",
+			"cooldown": 100,
+			"show_in_bar": true,
+			"title": {"text": "Flip the pickle over"},
+			"bar_color": "light_gray",
+			"commands": ["say I'm a Pickle Alex, Pickle Steve!"],
+			"icon": {"type": "texture",
+				"texture": "celios:textures/gui/Morty_icon.png"}
+		}
+
+		],
+
+			"effects": [{
+			"type": "skin_change",
+			"texture": "celios:textures/skins/pickle_skin.png",
+			"conditions": [{
+			"type": "ability_enabled",
+			"ability": "lucraftcore:size_change"
+		}]
+	}]
+}

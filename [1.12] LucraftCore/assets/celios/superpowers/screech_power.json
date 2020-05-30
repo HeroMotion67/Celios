@@ -1,0 +1,61 @@
+{
+	"name": {
+		"translate": "celios.superpower.screech"
+	},
+
+	"icon": {
+		"type": "texture",
+		"texture": "celios:textures/gui/screech_icon.png"
+	},
+
+	"max_level": 1,
+
+	"capsule_color": 15454602,
+
+	"abilities": 
+		{
+		"health":{
+			"ability": "lucraftcore:health",
+			"amount": 10
+		},
+		"jump_boost":{
+			"ability": "lucraftcore:jump_boost",
+			"amount": 2
+		},
+		"strength":{
+			"ability": "lucraftcore:strength",
+			"amount": 7
+		},
+		"resistance":{
+			"ability": "lucraftcore:resistance",
+			"amount": 8
+		},
+		"fall_resistance":{
+			"ability": "lucraftcore:fall_resistance",
+			"amount": 55
+		},
+		"knockback":{
+			"ability": "lucraftcore:knockback_resistance",
+			"amount": 4
+		},
+		"sprint":{
+			"ability": "lucraftcore:sprint",
+			"amount": 0.08
+		},
+		"screech":{
+			"ability": "the-fifth-world:screech",
+			"cooldown": 200,
+			"show_in_bar": true,
+			"damage": 1.0
+		},
+		"sound":{
+			"ability": "lucraftcore:command_toggle",
+			"show_in_bar": false,
+			"cooldown": 1,
+			"parent_ability":"screech",
+			"commands": ["playsound entity.ghast.scream block @a[r=10] ~ ~ ~"]	
+			}
+
+
+	}
+}

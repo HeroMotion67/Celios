@@ -1,0 +1,52 @@
+{
+	"name": {
+		"translate": "celios.suitset.martian_skull"
+	},
+
+	"armor_material": {
+		"durability": 4,
+		"damage_reduction_amounts": [2, 2, 2, 2],
+		"enchantibility": 0,
+		"toughness": 0.0,
+		"sound": "item.armor.equip_generic"
+	},
+"creative_tab": "celios",
+	"description": {
+		"translate": "celios.suitset.martian_skull.desc"
+	},
+	
+	"abilities": [
+	],
+
+	"armor_parts": {
+
+		"head": {
+			"openable": false,
+			"glow": false,
+			"name": {
+				"translate": "celios.suitset.martian_skull.head"
+			},
+			"textures": {
+				"normal": "celios:textures/models/armor/martian_skull.png"
+			},
+			"item_texture": {
+				"blockstate": "celios:skull_suit"
+			}
+		},
+
+		"chest": {
+			"openable": false,
+			"glow": false,
+			"name": {
+				"translate": "celios.suitset.martian_skull.chestplate"
+			},
+			"textures": {
+				"normal": "celios:textures/models/armor/clear/clear.png",
+				"normal_smallarms": "celios:textures/models/armor/clear/clear.png"
+			},
+			"item_texture": {
+				"blockstate": "celios:skull_suit"
+			}
+		}
+	}
+}

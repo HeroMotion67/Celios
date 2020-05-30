@@ -1,0 +1,140 @@
+#Creative Tab
+itemGroup.celios=Celios
+
+#SuitSets
+
+celios.suitset.manhunter=Костюм Марсианского Охотника
+celios.suitset.manhunter.desc=Дж’онн Дж’онзз
+celios.suitset.manhunter.chestplate=Нагрудник Марсианского Охотника
+celios.suitset.manhunter.legs=Штаны Марсианского Охотника
+celios.suitset.manhunter.boots=Штаны Марсианского Охотника
+
+
+celios.suitset.cw_manhunter=Костюм Марсианского Охотника
+celios.suitset.cw_manhunter.desc=CW
+celios.suitset.cw_manhunter.chestplate=Нагрудник Марсианского Охотника
+celios.suitset.cw_manhunter.legs=Штаны Марсианского Охотника
+celios.suitset.cw_manhunter.boots=Штаны Марсианского Охотника
+
+celios.suitset.miss_martian=Костюм Мисс Марсианки
+celios.suitset.miss_martian.desc=М'еганн М'орзз
+celios.suitset.miss_martian.head=Волосы Мисс Марсиан
+celios.suitset.miss_martian.chestplate=Нагрудник Мисс Марсианки
+celios.suitset.miss_martian.legs=Ноги Мисс Марсианки
+celios.suitset.miss_martian.boots=Ботинки Мисс Марсианки
+
+
+celios.suitset.osterman=Костюм Доктора Манхэттена
+celios.suitset.osterman.desc=Интервью
+celios.suitset.osterman.chestplate=Блейзер Доктора Манхэттена
+celios.suitset.osterman.legs=Штаны Доктора Манхэттена
+celios.suitset.osterman.boots=Ботинки Доктора Манхэттена
+
+
+celios.suitset.abar=Одежда Доктора Манхэттена
+celios.suitset.abar.desc=Кэл Абар
+celios.suitset.abar.chestplate=Рубашка Доктора Манхэттена
+celios.suitset.abar.legs=Штаны Доктора Манхэттена
+celios.suitset.abar.boots=Ботинки Доктора Манхэттена
+
+
+celios.suitset.underwear=Костюм Доктора Манхэттена
+celios.suitset.underwear.desc=Вьетнамская война (нагрудник)
+celios.suitset.underwear.chestplate=Нижнее белье Доктора Манхэттена
+
+celios.suitset.torn_shorts=Шорты Халка
+celios.suitset.torn_shorts.desc=Мстители (нагрудник)
+celios.suitset.torn_shorts.chestplate=Шорты Халка
+
+
+celios.suitset.professor=Костюм профессора Халка
+celios.suitset.professor.desc=Финал
+celios.suitset.professor.chestplate=Нагрудник профессора Халка
+celios.suitset.professor.legs=Штаны профессора Халка
+celios.suitset.professor.boots=Ботинки профессора Халка
+
+
+celios.suitset.purple_shorts=Шорты Халка
+celios.suitset.purple_shorts.desc=Классика (нагрудник)
+celios.suitset.purple_shorts.chestplate=Шорты Халка
+
+
+celios.sutset.snow_leopard=Снежный Леопард
+celios.suitset.snow_leopard.chestplate=Костюм Снежного Леопарда
+celios.suitset.snow_leopard.desc=От игроков для игроков
+
+
+celios.suitset.nightwing=Найтвинг
+celios.suitset.nightwing.desc=Дик Грэйсон
+celios.suitset.nightwing.head=Маска Найтвинга
+celios.suitset.nightwing.chestplate=Нагрудник Найтвинга
+celios.suitset.nightwing.legs=Штаны Найтвинга
+celios.suitset.nightwing.boots=Ботинки Найтвинга
+
+
+celios.suitset.zod=Генерал Зод 
+celios.suitset.zod.desc=Дру-Зод
+celios.suitset.zod.chestplate=Нагрудник Генерал Зод
+celios.suitset.zod.legs=Штаны Генерал Зод
+celios.suitset.zod.boots=Ботинки Генерал Зод
+
+
+celios.suitset.solar=Cверхчеловек
+celios.suitset.solar.desc=Cолнечный Kостюм
+celios.suitset.solar.chestplate=Нагрудник Cверхчеловек
+celios.suitset.solar.legs=Штаны Cверхчеловек
+celios.suitset.solar.boots=Ботинки Cверхчеловек
+
+
+celios.suitset.hellboy=Хеллбой
+celios.suitset.hellboy.desc=И на его лбу установлен огненный венец
+celios.suitset.hellboy.chestplate=Пальто Хеллбоя
+celios.suitset.hellboy.legs=Пояс Хеллбоя
+
+
+
+
+celios.suitset.homelander=Хоумлендер
+celios.suitset.homelander.desc=из комиксов
+celios.suitset.homelander.chestplate=Нагрудник Хоумлендера
+celios.suitset.homelander.legs=Штаны Хоумлендера
+celios.suitset.homelander.boots=Ботинки Хоумлендера
+
+
+
+celios.suitset.prime_homelander=Хоумлендера
+celios.suitset.prime_homelander.desc=из сериала
+celios.suitset.prime_homelander.chestplate=Нагрудник Хоумлендера
+celios.suitset.prime_homelander.legs=Штаны Хоумлендера
+celios.suitset.prime_homelander.boots=Ботинки Хоумлендера
+
+
+celios.suitset.bullseye=Меченый
+celios.suitset.bullseye.desc=Поиндекстер
+celios.suitset.bullseye.helmet=Маска Меченого
+celios.suitset.bullseye.chestplate=Нагрудник Меченого
+celios.suitset.bullseye.legs=Штаны Меченого
+celios.suitset.bullseye.boots=Ботинки Меченого
+
+
+
+celios.suitset.clear=Прозрачный
+celios.suitset.clear.desc=Тут все прозрачно - луший выбор
+celios.suitset.clear.head=Маска
+celios.suitset.clear.chestplate=Нагрудник
+celios.suitset.clear.legs=Штаны
+celios.suitset.clear.boots=Ботинки
+
+
+#Superpowers
+
+celios.superpower.celios=Целиос
+celios.superpower.martian=Марсианин
+celios.superpower.speed=Speedster Heroes 1.7.10
+celios.superpower.manhattan=Внутреннее поле
+celios.superpower.hulk=Гамма радиация
+celios.superpower.venom=Cимбионты
+celios.superpower.homelander=Соединение V
+celios.superpower.sans=Смешной скелет
+celios.superpower.hellboy=Анунг ун рама
+celios.superpower.super=Программа Оружие плюс

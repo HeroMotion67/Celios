@@ -1,0 +1,58 @@
+{
+	"name": {
+		"translate": "celios.superpower.celios"
+	},
+	"icon": {
+		"type": "texture",
+		"texture": "celios:textures/gui/logo.png"
+	},
+	"max_level": 8,
+	"capsule_color": 3323391,
+	"abilities": [{
+			"ability": "lucraftcore:healing",
+			"frequency": 250,
+			"amount": 5
+		},
+		{
+			"ability": "heroesexpansion:freeze_breath",
+			"cooldown": 100,
+			"distance": 5.0
+
+		},
+		{
+			"ability": "lucraftcore:strength",
+			"factor": 11,
+			"operation": 1,
+			"uuid": "0669d99d-b34d-40fc-a4d8-c7ee963cc842"
+		},
+		{
+			"ability": "lucraftcore:knockback_resistance",
+			"amount": 3,
+			"operation": 1,
+			"uuid": "0669d99d-b34d-40fc-a4d8-c7ee963cc842"
+		},
+		{
+			"ability": "lucraftcore:teleport",
+			"cooldown": 20,
+			"show_in_bar": true,
+			"icon": {
+				"type": "texture",
+				"texture": "celios:textures/gui/teleportation_icon.png"
+			},
+			"distance": 50.0
+		},
+		{
+			"ability": "lucraftcore:health",
+			"amount": 20,
+			"operation": 0,
+			"uuid": "b2930a55-fa9d-4124-bb58-2ba3169d1495"
+		},
+		{
+			"ability": "lucraftcore:jump_boost",
+			"amount": 3,
+			"operation": 0,
+			"uuid": "b2930a55-fa9d-4124-bb58-2ba3169d1495"
+		}
+
+	]
+}

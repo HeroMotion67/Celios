@@ -1,0 +1,33 @@
+{
+
+  "type": "lucraftcore:recolor",
+  
+  "group": "celios:miss_martian",
+
+  "result": {
+    "item": "miss_martian_chest"
+  },
+
+  "original": "celios:manhunter_chest",
+
+  "ingredients": [
+    {
+      "item": "#DYECYAN"
+    },
+    {
+      "item": "#DYERED"
+    }
+  ],
+
+  "conditions": [
+    {
+      "item": "celios:manhunter_chest",
+      "type": "minecraft:item_exists"
+    },
+    {
+      "item": "celios:miss_martian_chest",
+      "type": "minecraft:item_exists"
+    }
+  ]
+
+}

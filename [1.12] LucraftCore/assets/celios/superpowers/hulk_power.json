@@ -1,0 +1,89 @@
+{
+    "name" : {
+       "translate": "celios.superpower.hulk"
+    },
+
+    "icon": {
+        "type": "texture",
+        "texture": "celios:textures/gui/radioactive_icon.png"
+    },
+
+    "max_level": 1,
+
+    "capsule_color" : 33024,
+
+    "abilities": 
+		{
+		"change_form":{
+			"ability": "lucraftcore:size_change",
+			"size": 1.6,
+			"size_changer": "lucraftcore:default",
+			"title": {"text": "I'm always angry"},
+			"icon": {"type": "texture",
+				"texture": "celios:textures/gui/hulk_icon.png"}
+		},
+		"thunder_clap":{
+			"ability": "star-tech:concussive_blast",
+			"cooldown": 150,
+			"title": {"text": "Thunder Clap"},
+			"damage": 25,
+			"duration": 5,
+			"required_ability": "size_change"
+		},
+		"health":{
+			"ability": "lucraftcore:health",
+			"amount": 15,
+			"required_ability": "size_change"
+		},
+		"jump_boost":{
+			"ability": "lucraftcore:jump_boost",
+			"amount": 12,
+			"required_ability": "size_change"
+		},
+		"strength":{
+			"ability": "lucraftcore:strength",
+			"amount": 17,
+			"required_ability": "size_change"	
+		},
+		"radiation_immunity":{
+			"ability": "the-fifth-world:potion_immunity",
+			"potion": "lucraftcore:radiation",
+			"title": {"text":"Radiation Immunity"},
+			"icon": {"type": "texture",
+				"texture": "celios:textures/gui/radioactive_icon.png"}
+		},
+		"resistance":{
+			"ability": "lucraftcore:resistance",
+			"amount": 17,
+			"required_ability": "size_change"
+		},
+		"fall_resistance":{
+			"ability": "lucraftcore:fall_resistance",
+			"amount": 50,
+			"required_ability": "size_change"
+		},
+		"knockback_reistance":{
+			"ability": "lucraftcore:knockback_resistance",
+			"amount": 15,
+			"required_ability": "size_change"
+		},
+		"sprint":{
+			"ability": "lucraftcore:sprint",
+			"amount": 1.5,
+			"required_ability": "size_change"
+		}
+	},
+	
+			"effects": [
+        	{
+        		"type": "skin_change",
+       			"texture": "celios:textures/skins/hulk_skin.png",
+       			"conditions": [
+    		{
+        		"type": "ability_enabled",
+        		"ability": "lucraftcore:size_change"
+    		}
+		]
+        }
+    ]
+}

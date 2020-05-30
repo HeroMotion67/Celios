@@ -1,0 +1,33 @@
+{
+
+  "type": "lucraftcore:recolor",
+  
+  "group": "celios:bullseye",
+
+  "result": {
+    "item": "celios:bullseye_boots"
+  },
+
+  "original": "heroesexpansion:daredevil_boots",
+
+  "ingredients": [
+    {
+      "item": "#DYEBLACK"
+    },
+    {
+      "item": "#DYEWHITE"
+    }
+  ],
+
+  "conditions": [
+    {
+      "item": "celios:bullseye_boots",
+      "type": "minecraft:item_exists"
+    },
+    {
+      "item": "heroesexpansion:daredevil_boots",
+      "type": "minecraft:item_exists"
+    }
+  ]
+
+}

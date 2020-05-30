@@ -1,0 +1,33 @@
+{
+
+  "type": "lucraftcore:recolor",
+  
+  "group": "celios:torn_shorts",
+
+  "result": {
+    "item": "torn_shorts_chest"
+  },
+
+  "original": "celios:purple_shorts_chest",
+
+  "ingredients": [
+    {
+      "item": "#DYEBLACK"
+    },
+    {
+      "item": "#DYEBLACK"
+    }
+  ],
+
+  "conditions": [
+    {
+      "item": "celios:torn_shorts_chest",
+      "type": "minecraft:item_exists"
+    },
+    {
+      "item": "celios:purple_shorts_chest",
+      "type": "minecraft:item_exists"
+    }
+  ]
+
+}

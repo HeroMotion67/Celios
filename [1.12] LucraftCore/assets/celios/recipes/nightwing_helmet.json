@@ -1,0 +1,16 @@
+{
+  "result": {
+    "item": "celios:nightwing_helmet"
+  },
+  "type": "forge:ore_shaped",
+  "pattern": [
+    "1 1",
+    " 1 ",
+    "1 1"
+  ],
+  "key": {
+    "1": {
+      "item": "lucraftcore:tri_polymer_black"
+    }
+  }
+}

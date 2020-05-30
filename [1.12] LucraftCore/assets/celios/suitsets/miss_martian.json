@@ -1,0 +1,80 @@
+{
+	"name": {
+		"translate": "celios.suitset.miss_martian"
+	},
+	
+	"description": {
+		"translate": "celios.suitset.miss_martian.desc"
+	},
+	
+	"creative_tab": "celios",
+	
+	"armor_material": {
+		"durability": 15,
+		"damage_reduction_amounts": [2, 5, 6, 2],
+		"enchantibility": 9,
+		"toughness": 2.0,
+		"sound": "item.armor.equip_leather"
+	},
+	
+	"armor_parts": {
+
+		"head": {
+			"openable": true,
+			"glow": false,
+			"name": {
+				"translate": "celios.suitset.miss_martian.head"
+			},
+			"textures": {
+				"normal": "celios:textures/models/armor/miss_martian/helmet.png",
+				"normal_open": "celios:textures/models/armor/miss_martian/helmet_open.png"
+			},
+			"item_texture": {
+				"blockstate": "celios:miss_martian_suit"
+			}
+		},
+		
+		"chest": {
+			"openable": false,
+			"glow": false,
+			"name": {
+				"translate": "celios.suitset.miss_martian.chestplate"
+			},
+			"textures": {
+				"normal": "celios:textures/models/armor/miss_martian/chestplate.png",
+				"normal_smallarms": "celios:textures/models/armor/miss_martian/chestplate_smallarms.png"
+			},
+			"item_texture": {
+				"blockstate": "celios:miss_martian_suit"
+			}
+		},
+		
+		"legs": {
+			"openable": false,
+			"glow": false,
+			"name": {
+				"translate": "celios.suitset.miss_martian.legs"
+			},
+			"textures": {
+				"normal": "celios:textures/models/armor/miss_martian/legs.png"
+			},
+			"item_texture": {
+				"blockstate": "celios:miss_martian_suit"
+			}
+		},
+		
+		"feet": {
+			"openable": false,
+			"glow": false,
+			"name": {
+				"translate": "celios.suitset.miss_martian.boots"
+			},
+			"textures": {
+				"normal": "celios:textures/models/armor/miss_martian/boots.png"
+			},
+			"item_texture": {
+				"blockstate": "celios:miss_martian_suit"
+			}
+		}
+	}
+}

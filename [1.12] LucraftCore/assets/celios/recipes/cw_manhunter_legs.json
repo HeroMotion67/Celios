@@ -1,0 +1,33 @@
+{
+
+  "type": "lucraftcore:recolor",
+  
+  "group": "celios:cw_manhunter",
+
+  "result": {
+    "item": "cw_manhunter_legs"
+  },
+
+  "original": "celios:manhunter_legs",
+
+  "ingredients": [
+    {
+      "item": "#DYEBLACK"
+    },
+    {
+      "item": "#DYERED"
+    }
+  ],
+
+  "conditions": [
+    {
+      "item": "celios:manhunter_legs",
+      "type": "minecraft:item_exists"
+    },
+    {
+      "item": "celios:cw_manhunter_legs",
+      "type": "minecraft:item_exists"
+    }
+  ]
+
+}
