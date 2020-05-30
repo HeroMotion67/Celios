@@ -5,16 +5,16 @@
 		"group": "suits_and_armor"
 	},
 
-	"slot": "head",
+	"slot": "legs",
 
 	"armor_material": {
 		"name": "abar_material",
-		"max_damage_factor": 2,
+		"max_damage_factor": 6,
 		"damage_reduction": [3, 6, 4, 5]
 	},
 	"layers": {
 		"type": "threecore:default",
 		"model": "threecore:biped_0.252",
-		"texture": "celios:textures/models/armor/abar/helmet.png"
+		"texture": "celios:textures/models/armor/bullseye/legs.png"
 	}
 }
