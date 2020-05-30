@@ -1,0 +1,22 @@
+{
+  "result": {
+    "item": "celios:professor_chest"
+  },
+  "type": "forge:ore_shaped",
+  "pattern": [
+    "2 2",
+    "212",
+    "313"
+  ],
+  "key": {
+    "1": {
+      "item": "lucraftcore:tri_polymer_silver"
+    },
+    "2": {
+      "item": "lucraftcore:tri_polymer_gray"
+    },
+     "3": {
+      "item": "lucraftcore:tri_polymer_purple"
+    }
+  }
+}

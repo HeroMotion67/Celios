@@ -1,0 +1,78 @@
+{
+	"name": {
+		"translate": "celios.superpower.hellboy"
+	},
+
+	"icon": {
+		"type": "texture",
+		"texture": "celios:textures/gui/bprd_icon.png"
+	},
+
+	"max_level": 1,
+
+	"capsule_color": 16730403,
+
+	"abilities": {
+			
+		"call_weapon": {
+			"ability": "heroesexpansion:call_weapon",
+			"cooldown": 0
+		},
+		"hand_of_doom":{
+			"ability": "lucraftcore:set_punch",
+			"cooldown": 200,
+			"show_in_bar": true,
+			"title": {"text":"Right Hand of Doom"},
+			"arm": 0,
+			"reach_distance": 4,
+			"damage": 35,
+			"conditions": [{"type": "lucraftcore:ability",
+					"ability": "toggle_power"}]
+		},
+		"sprint":{
+			"ability": "lucraftcore:sprint",
+			"amount": 1
+		},
+		"health":{
+			"ability": "lucraftcore:health",
+			"amount": 15
+		},
+		"jump_boost":{
+			"ability": "lucraftcore:jump_boost",
+			"amount": 3
+		},
+		"strength":{
+			"ability": "lucraftcore:strength",
+			"amount": 13
+		},
+		"resistance":{
+			"ability": "lucraftcore:resistance",
+			"amount": 15
+		},
+		"fire_resistance":{
+			"ability": "lucraftcore:fire_resistance"
+		},
+		"fall_resistance":{
+			"ability": "lucraftcore:fall_resistance",
+			"amount": 40
+		}
+	},
+
+			"effects": [{
+			"type": "skin_change",
+			"texture": "celios:textures/skins/hellboy_skin.png"
+              },
+              {
+			"type": "skin_overlay",
+			"texture": "celios:textures/skins/hand_of_doom.png",
+			"glow": false,
+			"size": 0.5
+			},
+			{
+			"type": "skin_overlay",
+			"texture": "celios:textures/skins/of_doom.png",
+			"glow": false,
+			"size": 0.7
+			}
+		]
+}

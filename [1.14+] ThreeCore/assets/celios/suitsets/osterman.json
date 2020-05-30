@@ -1,0 +1,65 @@
+{
+	"name": {
+		"translate": "celios.suitset.osterman"
+	},
+	
+	"description": {
+		"translate": "celios.suitset.osterman.desc"
+	},
+	
+	"creative_tab": "celios",
+	
+	"armor_material": {
+		"durability": 8,
+		"damage_reduction_amounts": [3, 4, 3, 3],
+		"enchantibility": 9,
+		"toughness": 1.0,
+		"sound": "item.armor.equip_leather"
+	},
+	
+	"armor_parts": {
+		
+		"chest": {
+			"openable": false,
+			"glow": false,
+			"name": {
+				"translate": "celios.suitset.osterman.chestplate"
+			},
+			"textures": {
+				"normal": "celios:textures/models/armor/osterman/chestplate.png",
+				"normal_smallarms": "celios:textures/models/armor/osterman/chestplate_smallarms.png"
+			},
+			"item_texture": {
+				"blockstate": "celios:osterman_suit"
+			}
+		},
+		
+		"legs": {
+			"openable": false,
+			"glow": false,
+			"name": {
+				"translate": "celios.suitset.osterman.legs"
+			},
+			"textures": {
+				"normal": "celios:textures/models/armor/osterman/legs.png"
+			},
+			"item_texture": {
+				"blockstate": "celios:osterman_suit"
+			}
+		},
+		
+		"feet": {
+			"openable": false,
+			"glow": false,
+			"name": {
+				"translate": "celios.suitset.osterman.boots"
+			},
+			"textures": {
+				"normal": "celios:textures/models/armor/osterman/boots.png"
+			},
+			"item_texture": {
+				"blockstate": "celios:osterman_suit"
+			}
+		}
+	}
+}

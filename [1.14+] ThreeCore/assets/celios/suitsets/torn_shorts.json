@@ -1,0 +1,37 @@
+{
+	"name": {
+		"translate": "celios.suitset.torn_shorts"
+	},
+	
+	"description": {
+		"translate": "celios.suitset.torn_shorts.desc"
+	},
+	
+	"creative_tab": "celios",
+	
+	"armor_material": {
+		"durability": 4,
+		"damage_reduction_amounts": [2, 5, 6, 2],
+		"enchantibility": 9,
+		"toughness": 0.0,
+		"sound": "item.armor.equip_leather"
+	},
+	
+	"armor_parts": {
+		
+		"chest": {
+			"openable": false,
+			"glow": false,
+			"name": {
+				"translate": "celios.suitset.torn_shorts.chestplate"
+			},
+			"textures": {
+				"normal": "celios:textures/models/armor/torn_shorts/chestplate.png",
+				"normal_smallarms": "celios:textures/models/armor/torn_shorts/chestplate_smallarms.png"
+			},
+			"item_texture": {
+				"blockstate": "celios:torn_shorts_suit"
+			}
+			}
+		}
+	}

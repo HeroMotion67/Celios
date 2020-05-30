@@ -1,0 +1,236 @@
+{
+	"parent": "heroesexpansion:black_panther",
+
+	"name": {
+		"translate": "celios.suitset.iron_man"
+	},
+
+	"effects": [{
+			"type": "name_change",
+			"name": {
+				"text": "???"
+			},
+			"conditions": [{
+				"type": "open_armor",
+				"slot": "chest"
+			}]
+		},
+		{
+			"type": "hud",
+			"texture": "celios:textures/gui/iron_man_hud.png",
+			"conditions": [{
+				"type": "open_armor",
+				"slot": "chest"
+			}]
+		},
+		{
+		"type": "skin_overlay",
+       		"texture": "celios:textures/models/armor/iron_man/suit_glow.png",
+		"glow": true,
+        	"size": 0.3,
+		"conditions": [
+				{
+					"type": "open_armor",
+					"slot": "chest"
+				}
+			]
+	    },
+		{
+		"type": "skin_overlay",
+       		"texture": "celios:textures/models/armor/iron_man/suit_glow.png",
+		"glow": true,
+        	"size": 0.5,
+		"conditions": [
+				{
+					"type": "open_armor",
+					"slot": "chest"
+				}
+			]
+	    },
+		
+		{
+          	"type": "skin_overlay",
+          	"texture": "celios:textures/models/armor/iron_man/shield.png",
+          	"glow": true,
+          	"size": 2,
+		  "conditions": [
+				{
+					"type": "ability_enabled",
+					"ability": "heroesexpansion:god_mode"
+				}
+			]
+		}
+	],
+
+	"creative_tab": "tech",
+
+	"armor_material": {
+		"durability": 50,
+		"damage_reduction_amounts": [4, 5, 6, 4],
+		"enchantibility": 0,
+		"toughness": 3.5,
+		"sound": "item.armor.equip_diamond"
+	},
+
+	"data": {
+		"transition_color_1": {
+			"red": 82,
+			"green": 82,
+			"blue": 82
+		},
+
+		"transition_color_2": {
+			"red": 129,
+			"green": 202,
+			"blue": 220
+		},
+		"use_energy": true,
+		"use_durability": false,
+		"necklace_texture": "celios:textures/models/armor/iron_man/suit_open.png"
+	},
+
+	"abilities": {
+
+		"strength": {
+			"ability": "lucraftcore:strength",
+			"uuid": "167ca886-53ed-43f9-ba6c-02a1a7d492e6",
+			"amount": 7,
+			"operation": 0,
+			"conditions": [{
+				"type": "lucraftcore:open_armor",
+				"slot": "chest"
+			}]
+		},
+		"fire_resistance":{
+			"ability": "lucraftcore:fire_resistance",
+			"conditions": [{
+				"type": "lucraftcore:open_armor",
+				"slot": "chest"
+			}]
+		},
+		"jump_boost":{
+			"ability": "lucraftcore:jump_boost",
+			"amount": 2,
+			"operation": 0,
+			"conditions": [{
+				"type": "lucraftcore:open_armor",
+				"slot": "chest"
+			}]
+		},
+		"tough_lungs":{
+			"ability": "lucraftcore:tough_lungs",
+			"conditions": [{
+				"type": "lucraftcore:open_armor",
+				"slot": "chest"
+			}]
+		},
+		"water_breath":{
+			"ability": "lucraftcore:water_breathing",
+			"conditions": [{
+				"type": "lucraftcore:open_armor",
+				"slot": "chest"
+			}]
+		},
+		"fall_resistance":{
+			"ability": "lucraftcore:fall_resistance",
+			"amount": 60,
+			"conditions": [{
+				"type": "lucraftcore:open_armor",
+				"slot": "chest"
+			}]
+		},
+		"resist":{
+			"ability": "lucraftcore:resistance",
+			"amount": 20,
+			"operation": 0,
+				"conditions": [{"type": "lucraftcore:ability",
+				"ability": "shield"}]
+		},
+		"knockback":{
+			"ability": "lucraftcore:knockback_resistance",
+			"amount": 6,
+			"operation": 0,
+			"conditions": [{
+				"type": "lucraftcore:open_armor",
+				"slot": "chest"
+			}]
+		},
+		"flight":{
+			"ability": "lucraftcore:flight",
+			"speed": 0.75,
+			"sprint_speed": 5,
+			"cooldown": 1000,
+			"bar_color": "light_blue",
+			"rotate_arms": false,
+			"conditions": [{
+				"type": "lucraftcore:open_armor",
+				"slot": "chest"
+			}]
+		},
+		"shield":{
+			"ability": "heroesexpansion:god_mode",
+			"title": {"text":"Shield"},
+			"cooldown": 100,
+			"damage": 0,
+			"bar_color": "light_blue",
+			"icon": {"type": "texture",
+			"texture": "celios:textures/gui/shield_icon.png"},
+			"conditions": [
+				{
+					"type": "lucraftcore:open_armor",
+					"slot": "chest"
+				}
+			]
+		},
+		"energy":{
+			"ability": "lucraftcore:energy_blast",
+			"cooldown": 40,
+			"damage": 6,
+			"bar_color": "light_blue",
+			"color": [172, 232, 245],
+			"conditions": [{
+				"type": "lucraftcore:open_armor",
+				"slot": "chest"
+			}]
+		},
+		"photon":{
+			"ability": "heroesexpansion:photon_blast",
+			"cooldown": 30,
+			"bar_color": "light_blue",
+			"color": [172, 232, 245],
+			"conditions": [{
+				"type": "lucraftcore:open_armor",
+				"slot": "chest"
+			}]
+		},
+		"rocket":{
+			"ability": "star-tech:power_rocket_burst",
+			"cooldown": 600,
+			"bar_color": "light_blue",
+			"conditions": [{
+					"type": "lucraftcore:open_armor",
+					"slot": "chest"
+				}]
+		}
+
+	},
+
+	"armor_parts": {
+
+		"chest": {
+			"openable": true,
+			"glow": false,
+			"name": {
+				"text": "Arc Reactor"
+			},
+			"textures": {
+				"normal": "celios:textures/models/armor/iron_man/suit.png"
+			},
+			"item_texture": {
+				"blockstate": "celios:iron_man_suit"
+			}
+		}
+		
+	}
+		
+}

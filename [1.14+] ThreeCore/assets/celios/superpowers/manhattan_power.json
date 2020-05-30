@@ -1,0 +1,192 @@
+{
+	"name": {
+		"translate": "celios.superpower.manhattan"
+	},
+
+	"icon": {
+		"type": "texture",
+		"texture": "celios:textures/gui/manhattan_icon.png"
+	},
+
+	"max_level": 1,
+
+	"capsule_color": 3133432,
+
+	"abilities": {
+			
+		"field":{
+			"ability": "lucraftcore:toggle_power",
+			"bar_color": "light_blue",
+			"title": {"text": "Generate Field"},
+			"icon": {"type": "texture",
+				"texture": "celios:textures/gui/blue_icon.png"}
+		},
+		"flight":{
+			"ability": "lucraftcore:flight",
+			"speed": 0.75,
+			"sprint_speed": 3,
+			"bar_color": "light_blue",
+			"rotate_arms": false
+		},
+		"teleportation":{
+			"ability": "lucraftcore:teleport",
+			"bar_color": "light_blue",
+			"cooldown": 30,
+			"distance": 500,
+			"icon": {"type": "texture",
+				"texture": "celios:textures/gui/teleportation_icon.png"}
+		},
+		"particle":{
+			"ability": "lucraftcore:command_toggle",
+			"show_in_bar": false,
+			"cooldown": 1,
+			"parent_ability":"teleportation",
+			"uuid": "a0e1ffec-9c53-11ea-8d94-53b9f95fdef2",
+			"icon": {"type": "texture",
+				"texture": "celios:textures/gui/rtp_icon.png"},
+			"commands": ["particle fallingdust ~ ~1.3 ~ .51 .51 .51 1.2 150 force @a 57",
+				"particle fallingdust ~ ~1.3 ~ .51 .51 .51 1.2 100 force @a 238",
+				"playsound entity.shulker_bullet.hit block @a[r=7] ~ ~ ~"]	
+			},
+		"particle2":{
+			"ability": "lucraftcore:command_toggle",
+			"show_in_bar": false,
+			"cooldown": 1,
+			"parent_ability":"field",
+			"uuid": "a0e1ffec-9c53-11ea-8d94-53b9f95fdef2",
+			"icon": {"type": "texture",
+				"texture": "celios:textures/gui/rtp_icon.png"},
+			"commands": ["particle fallingdust ~ ~1.3 ~ .21 .21 .21 1.2 155 force @a 238"]	
+			},		
+		
+		
+		
+		"field_disruption":{
+			"ability": "lucraftcore:set_punch",
+			"cooldown": 20,
+			"show_in_bar": true,
+			"title": {"text":"Field Disruption"},
+			"icon": {"type": "texture",
+				"texture": "celios:textures/gui/energy_icon.png" },
+			"bar_color": "light_blue",
+			"arm": 3,
+			"reach_distance": 45,
+			"damage": 20,
+			"conditions": [{"type": "lucraftcore:ability",
+				"ability": "field"}]
+		},
+		"size_change":{
+			"ability": "lucraftcore:size_change",
+			"cooldown": 0,
+			"size": 8,
+			"bar_color": "light_blue",
+			"size_changer": "lucraftcore:default",
+			"conditions": 	[{"type": "lucraftcore:ability",
+					"ability": "field"}]
+		},
+		"bio_fission":{
+			"ability": "speedsterheroes:time_remnant",
+			"cooldown": 350,
+			"title": {"text":"Bio Fission"},
+			"bar_color": "light_blue",
+			"icon": {"type": "texture",
+				"texture": "celios:textures/gui/bio_icon.png"},
+			"conditions": [{"type": "lucraftcore:ability",
+					"ability": "field"}]
+		},
+		"radiation_immunity":{
+			"ability": "the-fifth-world:potion_immunity",
+			"potion": "lucraftcore:radiation",
+			"title": {"text":"Radiation Immunity"},
+			"icon": {"type": "texture",
+				"texture": "celios:textures/gui/radioactive_icon.png"}
+		},
+		"healing":{
+			"ability": "lucraftcore:healing",
+			"frequency": 60,
+			"amount": 2,
+			"hidden": true
+		},
+		"tough_lungs":{
+			"ability": "lucraftcore:tough_lungs"
+		},
+		"water_walking":{
+			"ability": "speedsterheroes:water_running",
+			"speed": 0.0
+			},
+		"water_breathing":{
+			"ability": "lucraftcore:water_breathing"
+		},
+		"fire_resistance":{
+			"ability": "lucraftcore:fire_resistance"
+		},
+		"health_boost":{
+			"ability": "lucraftcore:health",
+			"amount": 20
+		},
+		"jump_boost":{
+			"ability": "lucraftcore:jump_boost",
+			"amount": 2
+		},
+		"strength":{
+			"ability": "lucraftcore:strength",
+			"amount": 35
+		},
+		"resistance":{
+			"ability": "lucraftcore:resistance",
+			"amount": 18.5
+		},
+		"knockback_resistance":{
+			"ability": "lucraftcore:knockback_resistance",
+			"amount": 50
+		},
+		"fall_resistance":{
+			"ability": "lucraftcore:fall_resistance",
+			"amount": 100
+		},
+		"precision":{
+			"ability": "heroesexpansion:precision"
+		}
+
+	},
+
+		"effects": [{
+			"type": "skin_change",
+			"texture": "celios:textures/skins/manhattan_glow_2.png",
+			"conditions": [{
+				"type": "ability_enabled",
+				"ability": "lucraftcore:toggle_power"
+			}]
+		},
+		{
+			"type": "skin_overlay",
+			"texture": "celios:textures/skins/manhattan_glow.png",
+			"glow": true,
+			"size": -0.1,
+			"conditions": [{
+				"type": "ability_enabled",
+				"ability": "lucraftcore:toggle_power"
+			}]
+		},
+		{
+			"type": "skin_overlay",
+			"texture": "celios:textures/skins/manhattan_glow_2.png",
+			"glow": true,
+			"size": 0,
+			"conditions": [{
+				"type": "ability_enabled",
+				"ability": "lucraftcore:toggle_power"
+			}]
+		},
+		{
+			"type": "glowing_hand",
+			"color": [0, 0, 1],
+			"size": 3,
+			"conditions": [{
+				"type": "ability_enabled",
+				"ability": "lucraftcore:set_punch"
+			}]
+		}
+
+	]
+}

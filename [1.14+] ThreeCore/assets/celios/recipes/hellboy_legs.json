@@ -1,0 +1,16 @@
+{
+  "result": {
+    "item": "celios:hellboy_legs"
+  },
+  "type": "forge:ore_shaped",
+  "pattern": [
+    "222",
+    "   ",
+    "   "
+  ],
+  "key": {
+    "2": {
+      "item": "minecraft:leather"
+    }
+  }
+}

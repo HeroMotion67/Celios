@@ -1,0 +1,16 @@
+{
+  "result": {
+    "item": "celios:professor_boots"
+  },
+  "type": "forge:ore_shaped",
+  "pattern": [
+    "   ",
+    "2 2",
+    "2 2"
+  ],
+  "key": {
+    "2": {
+      "item": "lucraftcore:tri_polymer_purple"
+    }
+  }
+}

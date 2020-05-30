@@ -1,0 +1,19 @@
+{
+  "result": {
+    "item": "celios:nightwing_chest"
+  },
+  "type": "forge:ore_shaped",
+  "pattern": [
+    "2 2",
+    "121",
+    "111"
+  ],
+  "key": {
+    "1": {
+      "item": "lucraftcore:tri_polymer_black"
+    },
+    "2": {
+      "item": "lucraftcore:plate_lead"
+    }
+  }
+}

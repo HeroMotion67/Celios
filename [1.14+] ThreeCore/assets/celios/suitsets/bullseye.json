@@ -1,0 +1,89 @@
+{
+	"name": {
+		"translate": "celios.suitset.bullseye"
+	},
+	
+	"description": {
+		"translate": "celios.suitset.bullseye.desc"
+	},
+	
+	"creative_tab": "celios",
+	
+	"armor_material": {
+		"durability": 33,
+		"damage_reduction_amounts": [4, 5, 8, 4],
+		"enchantibility": 8,
+		"toughness": 2.0,
+		"sound": "item.armor.equip_leather"
+	},
+	
+	"effects": [
+		{
+			"type": "name_change",
+			"name": {
+				"text": "???"
+			}
+		}
+	],
+
+	
+	"armor_parts": {
+	
+		"head": {
+			"openable": false,
+			"glow": false,
+			"name": {
+				"translate": "celios.suitset.bullseye.helmet"
+			},
+			"textures": {
+				"normal": "celios:textures/models/armor/bullseye/helmet.png"
+			},
+			"item_texture": {
+				"blockstate": "celios:bullseye_suit"
+			}
+		},
+		
+		"chest": {
+			"openable": false,
+			"glow": false,
+			"name": {
+				"translate": "celios.suitset.bullseye.chestplate"
+			},
+			"textures": {
+				"normal": "celios:textures/models/armor/bullseye/chestplate.png",
+				"normal_smallarms": "celios:textures/models/armor/bullseye/chestplate_smallarms.png"
+			},
+			"item_texture": {
+				"blockstate": "celios:bullseye_suit"
+			}
+		},
+		
+		"legs": {
+			"openable": false,
+			"glow": false,
+			"name": {
+				"translate": "celios.suitset.bullseye.legs"
+			},
+			"textures": {
+				"normal": "celios:textures/models/armor/bullseye/legs.png"
+			},
+			"item_texture": {
+				"blockstate": "celios:bullseye_suit"
+			}
+		},
+		
+		"feet": {
+			"openable": false,
+			"glow": false,
+			"name": {
+				"translate": "celios.suitset.bullseye.boots"
+			},
+			"textures": {
+				"normal": "celios:textures/models/armor/bullseye/boots.png"
+			},
+			"item_texture": {
+				"blockstate": "celios:bullseye_suit"
+			}
+		}
+	}
+}

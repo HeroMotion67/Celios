@@ -1,0 +1,37 @@
+{
+	"name": {
+		"translate": "celios.suitset.underwear"
+	},
+	
+	"description": {
+		"translate": "celios.suitset.underwear.desc"
+	},
+	
+	"creative_tab": "celios",
+	
+	"armor_material": {
+		"durability": 15,
+		"damage_reduction_amounts": [2, 7, 8, 2],
+		"enchantibility": 9,
+		"toughness": 6.0,
+		"sound": "item.armor.equip_leather"
+	},
+	
+	"armor_parts": {
+		
+		"chest": {
+			"openable": false,
+			"glow": false,
+			"name": {
+				"translate": "celios.suitset.underwear.chestplate"
+			},
+			"textures": {
+				"normal": "celios:textures/models/armor/underwear/chestplate.png",
+				"normal_smallarms": "celios:textures/models/armor/underwear/chestplate_smallarms.png"
+			},
+			"item_texture": {
+				"blockstate": "celios:underwear_suit"
+			}
+			}
+		}
+	}

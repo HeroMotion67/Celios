@@ -1,0 +1,26 @@
+{
+  "result": {
+    "item": "celios:iron_man_suit"
+  },
+  "type": "forge:ore_shaped",
+  "pattern": [
+    "232",
+    "313",
+    "242"
+  ],
+  "key": {
+    "1": {
+      "item": "minecraft:beacon"
+    },
+    "2": {
+      "item": "lucraftcore:plate_vibranium"
+    },
+	"3": {
+      "item": "lucraftcore:plate_gold_titanium_alloy"
+    },
+    "4": {
+      "item": "lucraftcore:hv_capacitor"
+    }
+	
+  }
+}

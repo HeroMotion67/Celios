@@ -1,0 +1,19 @@
+{
+  "result": {
+    "item": "celios:nightwing_boots"
+  },
+  "type": "forge:ore_shaped",
+  "pattern": [
+    "   ",
+    "1 1",
+    "2 2"
+  ],
+  "key": {
+    "1": {
+      "item": "lucraftcore:plate_lead"
+    },
+    "2": {
+      "item": "lucraftcore:tri_polymer_black"
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+
+  "type": "lucraftcore:recolor",
+  
+  "group": "celios:solar",
+
+  "result": {
+    "item": "celios:solar_legs"
+  },
+
+  "original": "heroesexpansion:superman_legs",
+
+  "ingredients": [
+   {
+      "item": "#DYEBLACK"
+    },
+    {
+      "item": "minecraft:daylight_detector"
+    }
+  ],
+
+  "conditions": [
+    {
+      "item": "celios:solar_legs",
+      "type": "minecraft:item_exists"
+    },
+    {
+      "item": "heroesexpansion:superman_legs",
+      "type": "minecraft:item_exists"
+    }
+  ]
+
+}

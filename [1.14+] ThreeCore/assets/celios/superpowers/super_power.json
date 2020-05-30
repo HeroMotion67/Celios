@@ -1,0 +1,58 @@
+{
+	"name": {
+		"translate": "celios.superpower.super"
+	},
+
+	"icon": {
+		"type": "texture",
+		"texture": "celios:textures/gui/weapon_plus_icon.png"
+	},
+
+	"max_level": 1,
+
+	"capsule_color": 13270015,
+
+	"abilities": 
+		{
+		"precision":{
+			"ability": "heroesexpansion:precision"
+		},
+		"health":{
+			"ability": "lucraftcore:health",
+			"amount": 10
+		},
+		"jump_boost":{
+			"ability": "lucraftcore:jump_boost",
+			"amount": 2
+		},
+		"strength":{
+			"ability": "lucraftcore:strength",
+			"amount": 11
+		},
+		"healing":{
+			"ability": "lucraftcore:healing",
+			"frequency": 80,
+			"amount": 0.5
+		},
+		"resistance":{
+			"ability": "lucraftcore:resistance",
+			"amount": 12
+		},
+		"fall_resistance":{
+			"ability": "lucraftcore:fall_resistance",
+			"amount": 40
+		},
+		"knockback":{
+			"ability": "lucraftcore:knockback_resistance",
+			"amount": 2
+		},
+		"sprint":{
+			"ability": "lucraftcore:sprint",
+			"amount": 0.08
+		}
+
+
+
+
+	}
+}

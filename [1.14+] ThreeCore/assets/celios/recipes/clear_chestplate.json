@@ -1,0 +1,19 @@
+{
+  "result": {
+    "item": "celios:clear_chest"
+  },
+  "type": "forge:ore_shaped",
+  "pattern": [
+    "222",
+    "212",
+    "222"
+  ],
+  "key": {
+    "1": {
+      "item": "minecraft:diamond_chestplate"
+    },
+    "2": {
+      "item": "minecraft:glass_pane"
+    }
+  }
+}

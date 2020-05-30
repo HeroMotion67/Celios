@@ -1,0 +1,104 @@
+{
+	"parent": "heroesexpansion:black_panther",
+
+	"name": {
+		"translate": "celios.suitset.snow_leopard"
+	},
+
+	"creative_tab": "celios",
+
+	"armor_material": {
+		"durability": 33,
+		"damage_reduction_amounts": [3, 6, 8, 3],
+		"enchantibility": 0,
+		"toughness": 2.0,
+		"sound": "item.armor.equip_chain"
+	},
+
+	"data": {
+		"transition_color_1": {
+			"red": 1,
+			"green": 197,
+			"blue": 255
+		},
+		"transition_color_2": {
+			"red": 119,
+			"green": 112,
+			"blue": 53
+		},
+		"necklace_texture": "celios:textures/models/armor/snow_leopard/necklace.png"
+	},
+
+	"effects": [{
+		"type": "name_change",
+		"name": {
+			"text": "???"
+		},
+		"conditions": [{
+			"type": "open_armor",
+			"slot": "chest"
+		}]
+	}],
+
+	"abilities": {
+		"kinetic_energy_absorption": {
+			"ability": "heroesexpansion:kinetic_energy_absorption",
+			"max_energy": 100,
+			"color": [1, 197, 255],
+			"conditions": [{
+				"type": "lucraftcore:open_armor",
+				"slot": "chest"
+			}]
+		},
+		"knockback_resistance": {
+			"ability": "lucraftcore:knockback_resistance",
+			"uuid": "226a45d6-79ff-4279-bb39-c706bec612e9",
+			"factor": 3,
+			"operation": 0,
+			"conditions": [{
+				"type": "lucraftcore:open_armor",
+				"slot": "chest"
+			}]
+		},
+		"fall_resistance": {
+			"ability": "lucraftcore:fall_resistance",
+			"uuid": "226a45d6-79ff-4279-bb39-c706bec612e9",
+			"factor": 0.05,
+			"operation": 1,
+			"conditions": [{
+				"type": "lucraftcore:open_armor",
+				"slot": "chest"
+			}]
+		},
+		"punch": {
+			"ability": "lucraftcore:punch",
+			"uuid": "226a45d6-79ff-4279-bb39-c706bec612e9",
+			"factor": 2,
+			"operation": 0,
+			"conditions": [{
+				"type": "lucraftcore:open_armor",
+				"slot": "chest"
+			}]
+		}
+	},
+
+	"armor_parts": {
+
+		"chest": {
+			"openable": true,
+			"glow": true,
+			"name": {
+				"translate": "celios.suitset.snow_leopard.chestplate"
+			},
+			"textures": {
+				"normal": "celios:textures/models/armor/snow_leopard/chestplate.png",
+				"normal_smallarms": "celios:textures/models/armor/snow_leopard/chestplate_smallarms.png",
+				"glow": "celios:textures/models/armor/snow_leopard/chestplate_lights.png",
+				"glow_smallarms": "celios:textures/models/armor/snow_leopard/chestplate_smallarms_lights.png"
+			},
+			"item_texture": {
+				"blockstate": "celios:snow_leopard_suit"
+			}
+		}
+	}
+}

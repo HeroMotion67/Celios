@@ -1,0 +1,33 @@
+{
+
+  "type": "lucraftcore:recolor",
+  
+  "group": "celios:zod",
+
+  "result": {
+    "item": "celios:zod_legs"
+  },
+
+  "original": "heroesexpansion:superman_legs",
+
+  "ingredients": [
+   {
+      "item": "#DYEGRAY"
+    },
+    {
+      "item": "#DYELIGHTGRAY"
+    }
+  ],
+
+  "conditions": [
+    {
+      "item": "celios:zod_legs",
+      "type": "minecraft:item_exists"
+    },
+    {
+      "item": "heroesexpansion:superman_legs",
+      "type": "minecraft:item_exists"
+    }
+  ]
+
+}

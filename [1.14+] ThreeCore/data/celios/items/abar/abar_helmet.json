@@ -15,6 +15,6 @@
 	"layers": {
 		"type": "threecore:default",
 		"model": "threecore:biped_0.252",
-		"layers": "celios:textures/models/armor/abar/helmet.png"
+		"texture": "celios:textures/models/armor/abar/helmet.png"
 	}
 }
