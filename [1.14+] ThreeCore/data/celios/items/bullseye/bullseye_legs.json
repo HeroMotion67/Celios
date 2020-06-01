@@ -8,7 +8,7 @@
 	"slot": "legs",
 
 	"armor_material": {
-		"name": "abar_material",
+		"name": "bullseye_material",
 		"max_damage_factor": 6,
 		"damage_reduction": [3, 6, 4, 5]
 	},
